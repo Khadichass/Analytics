@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #e5e5e5;
+}
+
+.dashboard {
+  padding: 120px 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+
+  .dashboard__text {
+    width: 408px;
+    height: 410px;
+    padding: 89px 0;
+
+    h1 {
+      color: #172755;
+      font-size: 40px;
+    }
+
+    p {
+      color: #8794ba;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  }
+
+  .dashboard__calendar {
+    width: 600px;
+    height: 410px;
+    background-color: white;
+    border-radius: 15px;
+  }
+}
