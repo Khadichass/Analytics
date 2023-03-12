@@ -169,6 +169,35 @@
   display: none;
 }
 
+.close {
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  line-height: 44px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  z-index: 2;
+  position: fixed;
+  height: 100%;
+}
+.close__link {
+  display: grid;
+  grid-template-columns: auto;
+  padding-top: 100px;
+}
+.close__link a {
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.close__link__button img {
+  background-color: white;
+  color: white;
+}
+
 .carddiagram {
   background-color: #fff;
   width: 361px;
