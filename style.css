@@ -70,12 +70,6 @@ body {
 .dashboard .dashboard__calendar .wrapper .calendar .days li {
   cursor: pointer;
 }
-.dashboard .dashboard__calendar .wrapper .calendar .days li:hover {
-  background-color: #f2f2f2;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
 .dashboard .dashboard__calendar .wrapper .calendar ul {
   display: flex;
   list-style: none;
