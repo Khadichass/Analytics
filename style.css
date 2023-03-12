@@ -21,6 +21,14 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 100px;
 }
+.dashboard .today {
+  background-color: #ef2a82;
+  border-radius: 100px;
+  color: white;
+  width: 20px;
+  height: 40px;
+  padding: 8px;
+}
 .dashboard .dashboard__text {
   width: 408px;
   height: 410px;
@@ -37,8 +45,8 @@ body {
   font-weight: 300;
 }
 .dashboard .dashboard__calendar {
-  width: 500px;
-  height: 480px;
+  width: 600px;
+  height: 410px;
   background-color: white;
   border-radius: 15px;
   display: flex;
@@ -48,35 +56,10 @@ body {
 }
 .dashboard .dashboard__calendar .wrapper {
   background-color: white;
-  width: 450px;
+  width: 600px;
+  height: 410px;
   border-radius: 10px;
-}
-.dashboard .dashboard__calendar .wrapper header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 25px 30px 10px;
-}
-.dashboard .dashboard__calendar .wrapper header .current-date {
-  font-size: 1.45rem;
-  font-weight: 500;
-}
-.dashboard .dashboard__calendar .wrapper header .icons .fa {
-  height: 38px;
-  width: 38px;
-  color: #878787;
-  font-size: 1.1rem;
-  margin: 0 1px;
-  text-align: center;
-  line-height: 38px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.dashboard .dashboard__calendar .wrapper header .icons fa:hover {
-  background-color: #f2f2f2;
-}
-.dashboard .dashboard__calendar .wrapper header .icons fa:last-child {
-  margin-right: -10px;
+  padding: 57px 70px;
 }
 .dashboard .dashboard__calendar .wrapper .calendar {
   padding: 20px;
@@ -84,18 +67,13 @@ body {
 .dashboard .dashboard__calendar .wrapper .calendar .weeks li {
   font-weight: 500;
 }
-.dashboard .dashboard__calendar .wrapper .calendar .weeks .days {
-  margin-bottom: 20px;
-}
-.dashboard .dashboard__calendar .wrapper .calendar .weeks .days li {
-  margin-top: 30px;
+.dashboard .dashboard__calendar .wrapper .calendar .days li {
   cursor: pointer;
 }
-.dashboard .dashboard__calendar .wrapper .calendar .weeks .days li:hover {
+.dashboard .dashboard__calendar .wrapper .calendar .days li:hover {
   background-color: #f2f2f2;
   height: 40px;
   width: 40px;
-  transform: translate(-50%, -50%);
   border-radius: 50%;
 }
 .dashboard .dashboard__calendar .wrapper .calendar ul {
@@ -108,6 +86,7 @@ body {
   width: 14.2857142857%;
   padding-bottom: 20px;
   position: relative;
+  z-index: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
