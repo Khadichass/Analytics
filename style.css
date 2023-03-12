@@ -8,8 +8,13 @@ body {
   max-width: 1600px;
   margin: 0 auto;
   background: #e5e5e5;
+  font-family: popins;
 }
 
+@font-face {
+  font-family: popins;
+  src: url(Fonts/Poppins-Medium.ttf);
+}
 .dashboard {
   padding: 120px 150px;
   display: grid;
@@ -23,18 +28,86 @@ body {
 }
 .dashboard .dashboard__text h1 {
   color: #172755;
-  font-size: 40px;
+  font-size: 32px;
 }
 .dashboard .dashboard__text p {
   color: #8794ba;
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 30px;
+  font-weight: 300;
 }
 .dashboard .dashboard__calendar {
-  width: 600px;
-  height: 410px;
+  width: 500px;
+  height: 480px;
   background-color: white;
   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.dashboard .dashboard__calendar .wrapper {
+  background-color: white;
+  width: 450px;
+  border-radius: 10px;
+}
+.dashboard .dashboard__calendar .wrapper header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px 10px;
+}
+.dashboard .dashboard__calendar .wrapper header .current-date {
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+.dashboard .dashboard__calendar .wrapper header .icons .fa {
+  height: 38px;
+  width: 38px;
+  color: #878787;
+  font-size: 1.1rem;
+  margin: 0 1px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dashboard .dashboard__calendar .wrapper header .icons fa:hover {
+  background-color: #f2f2f2;
+}
+.dashboard .dashboard__calendar .wrapper header .icons fa:last-child {
+  margin-right: -10px;
+}
+.dashboard .dashboard__calendar .wrapper .calendar {
+  padding: 20px;
+}
+.dashboard .dashboard__calendar .wrapper .calendar .weeks li {
+  font-weight: 500;
+}
+.dashboard .dashboard__calendar .wrapper .calendar .weeks .days {
+  margin-bottom: 20px;
+}
+.dashboard .dashboard__calendar .wrapper .calendar .weeks .days li {
+  margin-top: 30px;
+  cursor: pointer;
+}
+.dashboard .dashboard__calendar .wrapper .calendar .weeks .days li:hover {
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 40px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.dashboard .dashboard__calendar .wrapper .calendar ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.dashboard .dashboard__calendar .wrapper .calendar ul li {
+  width: 14.2857142857%;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,6 +8,12 @@ body {
   max-width: 1600px;
   margin: 0 auto;
   background: #e5e5e5;
+  font-family: popins;
+}
+
+@font-face {
+  font-family: popins;
+  src: url(Fonts/Poppins-Medium.ttf);
 }
 
 .dashboard {
@@ -23,20 +29,114 @@ body {
 
     h1 {
       color: #172755;
-      font-size: 40px;
+      font-size: 32px;
     }
 
     p {
       color: #8794ba;
-      font-size: 18px;
+      font-size: 15px;
       margin-top: 30px;
+      font-weight: 300;
     }
   }
 
   .dashboard__calendar {
-    width: 600px;
-    height: 410px;
+    width: 500px;
+    height: 480px;
     background-color: white;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    .wrapper {
+      background-color: white;
+      width: 450px;
+      border-radius: 10px;
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 30px 10px;
+
+        .current-date {
+          font-size: 1.45rem;
+          font-weight: 500;
+        }
+
+        .icons {
+          .fa {
+            height: 38px;
+            width: 38px;
+            color: #878787;
+            font-size: 1.1rem;
+            margin: 0 1px;
+            text-align: center;
+            line-height: 38px;
+            border-radius: 50%;
+            cursor: pointer;
+          }
+
+          fa:hover {
+            background-color: #f2f2f2;
+          }
+
+          fa:last-child {
+            margin-right: -10px;
+          }
+        }
+      }
+
+      .calendar {
+        padding: 20px;
+
+        .weeks {
+          li {
+            font-weight: 500;
+          }
+
+          .days {
+            margin-bottom: 20px;
+
+            li {
+              margin-top: 30px;
+              cursor: pointer;
+            }
+
+            // li::before {
+            //   position: absolute;
+            //   content: "";
+            //   height: 40px;
+            //   width: 40px;
+            //   top: 42%;
+            //   left: 55%;
+            //   transform: translate(-50%, -50%);
+            //   background-color: #f2f2f2;
+            // }
+            li:hover {
+              background-color: #f2f2f2;
+              height: 40px;
+              width: 40px;
+              transform: translate(-50%, -50%);
+              border-radius: 50%;
+            }
+          }
+        }
+        ul {
+          display: flex;
+          list-style: none;
+          flex-wrap: wrap;
+          text-align: center;
+
+          li {
+            width: calc(100% / 7);
+            padding-bottom: 20px;
+            position: relative;
+          }
+        }
+      }
+    }
   }
 }
