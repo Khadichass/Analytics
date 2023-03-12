@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: #172755;
+  height: 815px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 71%, 0 96%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.head .circle1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.head .circle2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.head .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.head .header__first {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.head .header__first img {
+  width: 40px;
+  height: 40px;
+}
+.head .header__first p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+.head .header__second {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  margin-left: 82px;
+}
+.head .header__second a {
+  text-decoration: none;
+  color: #8794ba;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+}
+.head .header__third {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 314px;
+  line-height: 18.75px;
+}
+.head .header__third p {
+  color: #8794ba;
+  font-size: 16px;
+  font-weight: 400;
+}
+.head .header button {
+  background-color: #172755;
+  color: #8794ba;
+  border: 1px solid #465b95;
+  border-radius: 68px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  padding-top: 10px;
+  padding-right: 53px;
+  padding-bottom: 10px;
+  padding-left: 53px;
+}
+.head .text {
+  width: 78%;
+  margin: 0 auto;
+}
+.head .text h1 {
+  margin-top: 152px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 45%;
+}
+.head .text p {
+  margin-top: 15px;
+  color: #8794ba;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 43%;
+}
+.head .text button {
+  margin-top: 49px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  background-color: #ef2a82;
+  border-radius: 68px;
+  border: 1px solid #ef2a82;
+  color: #fff;
+  padding-top: 10px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */
