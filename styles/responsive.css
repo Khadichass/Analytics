@@ -155,10 +155,269 @@
 
 @media only screen and (max-width: 1330px) {
 
+.container {
+    margin: 0 auto;
+    border: 1px solid blue;
+    margin: 0 0 130px;
+}
+
 .main-features-pages {
     margin: 20px 0 0 0;
     /* border: 1px solid red; */
     padding: 55px 30px 0 30px;
+}
+
+}
+
+@media only screen and (max-width: 1130px) {
+
+.container {
+    margin: 0 auto;
+    border: 1px solid blue;
+    margin: 0 0 130px;
+    width: 1180px;
+}
+
+.main-features-pages {
+    margin: 20px 0 0 0;
+    /* border: 1px solid red; */
+    padding: 55px 30px 0 30px;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+.container {
+    margin: 0 auto;
+    border: 1px solid blue;
+    margin: 0 0 130px;
+    width: 1179px;
+}
+
+.main-features-pages {
+    margin: 20px 0 0 0;
+    /* border: 1px solid red; */
+    padding: 55px 0 0 0;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.container {
+    margin: 0 auto;
+    border: 1px solid blue;
+    margin: 0 0 10px 0;
+    width: 1180px;
+}
+
+.main-features h1 {
+    font-size: 31px;
+    margin-left: 30px;
+}
+
+.main-features-pages {
+    margin: 20px 0 0 0;
+    /* border: 1px solid red; */
+    padding: 55px 0 0 0;
+}
+
+}
+
+@media only screen and (max-width: 567px) {
+
+.main-features h1 {
+    text-align: center;
+    font-size: 31px;
+    margin-left: 0;
+}
+
+.container {
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    margin: 0 0 10px 0;
+    width: 1180px;
+    height: 800px;
+}
+
+.main-features p {
+    width: 630px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.main-features-pages {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    /* border: 1px solid red; */
+    padding: 60px 0 0 0;
+    height: 230px;
+    margin: 0 0 130px 270px;
+}
+
+.main-features-page-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 600px;
+    height: 164px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+  
+.main-features-page-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 600px;
+    height: 164px;
+    text-align: center;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+  
+  .main-features-page-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 600px;
+    height: 164px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.pages h5 {
+    position: relative;
+    width: 240px;
+    font-weight: 700;
+    font-size: 18px;
+    left: 200px;
+    top: -50px;
+    bottom: 12px;
+}
+  
+.pages p {
+    position: relative;
+    top: 12px;
+    left: 0;
+    width: 390px;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #8794ba;
+}
+
+.pages img {
+    width: 90px;
+    height: 90px;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+.pages img {
+    width: 80px;
+    height: 80px;
+}
+
+}
+
+@media only screen and (max-width: 375px) {
+
+.main-features h1 {
+    text-align: center;
+    font-size: 31px;
+    margin-left: 0;
+}
+
+.container {
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    margin: 0 0 130px 0;
+    width: 1180px;
+    height: 580px;
+}
+
+.main-features p {
+    width: 630px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.main-features-pages {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    /* border: 1px solid red; */
+    padding: 60px 0 0 0;
+    height: 230px;
+    margin: 0 0 130px 270px;
+}
+
+.main-features-page-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px 0 50px;
+    width: 600px;
+    height: 88px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+  
+.main-features-page-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px 0 50px;
+    width: 600px;
+    height: 88px;
+    text-align: center;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+  
+  .main-features-page-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px 0 50px;
+    width: 600px;
+    height: 88px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.pages h5 {
+    position: relative;
+    width: 240px;
+    font-weight: 700;
+    font-size: 16px;
+    left: 150px;
+    top: -35px;
+    bottom: 12px;
+}
+  
+.pages p {
+    position: relative;
+    top: 12px;
+    left: 0;
+    width: 400px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #8794ba;
+}
+
+.pages img {
+    width: 60px;
+    height: 60px;
 }
 
 }
