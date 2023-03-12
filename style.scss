@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: RobotoBold;
+  src: url(./fonts/Inter-Bold.eot) url(./fonts/Inter-Bold.ttf)
+    url(./fonts/Inter-Bold.woff) url(./fonts/Inter-Bold.woff2);
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  src: url(./fonts/Inter-Regular.eot) url(./fonts/Inter-Regular.ttf)
+    url(./fonts/Inter-Regular.woff) url(./fonts/Inter-Regular.woff2);
+}
 .head {
   background-color: #172755;
   height: 815px;
@@ -42,6 +53,7 @@
           size: 22px;
           weight: bold;
         }
+        font-family: RobotoBold;
       }
     }
     &__second {
@@ -143,3 +155,117 @@
   }
   // -----text---------//
 }
+
+// -----diagram---------
+.diagram {
+  display: grid;
+  width: 683px;
+  background-color: #fff;
+  grid-template-columns: auto auto auto;
+  gap: 13px;
+  border-radius: 60px 0px 0px 60px;
+  position: absolute;
+  top: 164px;
+  left: 807px;
+  padding: 25px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &__1 {
+    width: 100%;
+    max-width: 236px;
+  }
+  // -----diagram---------//
+}
+
+// -----carddiagram---------
+
+.carddiagram {
+  background-color: #fff;
+  width: 361px;
+  height: 246px;
+  position: absolute;
+  top: 288px;
+  left: 710px;
+  padding: 25px 48px;
+  border-radius: 32.0414px;
+  box-shadow: 0px 19.2249px 53.4024px -16.0207px rgba(25, 42, 89, 0.2);
+
+  p {
+    font: {
+      size: 9.63px;
+      weight: 400;
+    }
+    line-height: 13.48px;
+    color: #8794ba;
+  }
+
+  &__analytics {
+    display: flex;
+    gap: 46px;
+
+    h2 {
+      color: #0088f0;
+      font: {
+        size: 23.72px;
+        weight: 400;
+      }
+      line-height: 27.8px;
+      margin-top: 30px;
+    }
+
+    h3 {
+      color: #ef2a82;
+      font: {
+        size: 23.72px;
+        weight: 400;
+      }
+      line-height: 27.8px;
+      margin-top: 20px;
+    }
+
+    p {
+      font: {
+        size: 10.83px;
+        weight: 400;
+      }
+      line-height: 16.25px;
+      color: #8794ba;
+      margin-top: 2px;
+    }
+
+    &--circel {
+      position: relative;
+    }
+
+    .numb {
+      position: absolute;
+      top: 104px;
+      left: 132px;
+    }
+    .bluecircle {
+      height: 160px;
+      width: 160px;
+      border-radius: 50%;
+      border: solid 10px transparent;
+      border-right-color: #0088f0;
+      border-left-color: #0088f0;
+      border-bottom-color: #0088f0;
+      transform: rotate(320deg);
+      margin-left: 20px;
+    }
+
+    .pinkcircle {
+      height: 111px;
+      width: 111px;
+      border-radius: 50%;
+      border: solid 10px transparent;
+      border-right-color: #ef2a82;
+      border-left-color: #ef2a82;
+      border-bottom-color: #ef2a82;
+      transform: rotate(320deg);
+      position: absolute;
+      top: 64px;
+      left: 92px;
+    }
+  }
+}
+// -----carddiagram---------//
