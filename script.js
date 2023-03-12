@@ -1,5 +1,6 @@
 "use script";
 const openBtn = document.getElementById("menu");
+// const openBtn = document.getElementById("menu");
 const closeBtn = document.getElementById("close__btn");
 const openMenu = document.getElementById("button");
 
