@@ -5,19 +5,30 @@
 }
 
 @font-face {
-  font-family: RobotoBold;
+  font-family: "Robotob";
   src: url(./fonts/Inter-Bold.eot) url(./fonts/Inter-Bold.ttf) url(./fonts/Inter-Bold.woff) url(./fonts/Inter-Bold.woff2);
 }
 @font-face {
-  font-family: RobotoRegular;
+  font-family: "Robotor";
   src: url(./fonts/Inter-Regular.eot) url(./fonts/Inter-Regular.ttf) url(./fonts/Inter-Regular.woff) url(./fonts/Inter-Regular.woff2);
 }
+.pinkback {
+  width: 100%;
+  height: 271px;
+  background-color: #ef2a82;
+  position: absolute;
+  top: 544px;
+  z-index: -3;
+  clip-path: polygon(0 0, 100% 0, 100% 26%, 0 100%);
+}
+
 .head {
   background-color: #172755;
   height: 815px;
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 71%, 0 96%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
 }
 .head .circle1 {
   position: absolute;
@@ -48,7 +59,7 @@
   color: #fff;
   font-size: 22px;
   font-weight: bold;
-  font-family: RobotoBold;
+  font-family: "Robotor", sans-serif;
 }
 .head .header__second {
   display: flex;
@@ -61,6 +72,7 @@
   color: #8794ba;
   font-size: 16px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
   line-height: 18.75px;
 }
 .head .header__third {
@@ -74,6 +86,7 @@
   color: #8794ba;
   font-size: 16px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
 }
 .head .header button {
   background-color: #172755;
@@ -82,6 +95,7 @@
   border-radius: 68px;
   font-size: 16px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
   line-height: 18.75px;
   padding-top: 10px;
   padding-right: 53px;
@@ -96,15 +110,17 @@
   margin-top: 152px;
   color: #fff;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 500;
+  font-family: "Robotor", sans-serif;
   line-height: 60px;
-  width: 45%;
+  width: 47.5%;
 }
 .head .text p {
   margin-top: 15px;
   color: #8794ba;
   font-size: 18px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
   line-height: 27px;
   width: 43%;
 }
@@ -112,6 +128,7 @@
   margin-top: 49px;
   font-size: 16px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
   line-height: 18.75px;
   background-color: #ef2a82;
   border-radius: 68px;
@@ -155,6 +172,7 @@
 .carddiagram p {
   font-size: 9.63px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
   line-height: 13.48px;
   color: #8794ba;
 }
@@ -166,6 +184,7 @@
   color: #0088f0;
   font-size: 23.72px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
   line-height: 27.8px;
   margin-top: 30px;
 }
@@ -173,12 +192,14 @@
   color: #ef2a82;
   font-size: 23.72px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
   line-height: 27.8px;
   margin-top: 20px;
 }
 .carddiagram__analytics p {
   font-size: 10.83px;
   font-weight: 400;
+  font-family: "Robotor", sans-serif;
   line-height: 16.25px;
   color: #8794ba;
   margin-top: 2px;
