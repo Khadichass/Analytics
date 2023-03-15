@@ -75,13 +75,10 @@ body {
           }
         }
         .days {
-          
-
           li {
             // margin-top: 30px;
             cursor: pointer;
           }
-        
         }
 
         ul {
@@ -99,5 +96,46 @@ body {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .dashboard {
+    padding: 120px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .dashboard .dashboard__calendar {
+    width: 500px;
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 586px) {
+  .dashboard {
+    padding: 60px 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .dashboard .dashboard__text {
+    width: 408px;
+    height: 350px;
+    padding: 89px 0;
+  }
+
+  .dashboard .dashboard__calendar {
+    width: 450px;
+    height: 350px;
+  }
+  .dashboard .dashboard__calendar .wrapper {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 25px 10px;
   }
 }
