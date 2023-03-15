@@ -1,5 +1,9 @@
+
 // const currentDate = document.getElementsByTagName("li");
 "use script"
+
+"use script";
+
 
 const currentDate = document.querySelector(".click__li");
 
