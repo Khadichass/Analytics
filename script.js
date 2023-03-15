@@ -6,9 +6,9 @@ const currentDate = document.querySelector(".click__li");
 
 currentDate.addEventListener("click", () => {
   currentDate.style.backgroundColor = "#0088F0";
-  calendarLi.style.color = "#fff";
-  calendarLi.style.borderRadius = "50%";
-  calendarLi.style.width = "20px";
-  calendarLi.style.height = "40px";
+  currentDate.style.color = "#fff";
+  currentDate.style.borderRadius = "50%";
+  currentDate.style.width = "20px";
+  currentDate.style.height = "40px";
 });
 
