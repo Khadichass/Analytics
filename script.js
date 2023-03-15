@@ -13,6 +13,3 @@ currentDate.addEventListener("click", () => {
   calendarLi.style.height = "40px";
 });
 
-hiii.addEventListener("click", function () {
-  alert("hoooooo");
-});
