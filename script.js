@@ -3,7 +3,6 @@
 
 const currentDate = document.querySelector(".click__li");
 
-let hiii = document.getElementById("hiii");
 
 currentDate.addEventListener("click", () => {
   currentDate.style.backgroundColor = "#0088F0";
