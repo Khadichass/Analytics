@@ -468,23 +468,18 @@ body {
   }
 }
 @media only screen and (max-width: 767px) {
-
   body {
     max-width: 767px;
   }
   .alertsSection {
     max-width: 350px;
     margin: 0 auto;
-
-  .alertsSection {
-
     align-items: center;
     gap: 80px;
   }
   .circlue {
     align-items: center;
     position: relative;
-
     top: 50px;
     right: 0;
   }
@@ -496,15 +491,6 @@ body {
     margin-top: 110px;
     margin-left: 0;
   }
-
-    top: 590px;
-    right: 0;
-  }
-  .customersSection {
-    width: 850px;
-  }
-}
-@media only screen and (max-width: 800px) {
   .full {
     margin-right: 500px;
   }
