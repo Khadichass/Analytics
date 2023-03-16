@@ -1,3 +1,4 @@
+
 const openBtn = document.getElementById("menu");
 // const openBtn = document.getElementById("menu");
 const closeBtn = document.getElementById("close__btn");
@@ -14,3 +15,22 @@ let closeButton = function () {
 };
 
 closeBtn.addEventListener("click", closeButton);
+
+// const currentDate = document.getElementsByTagName("li");
+"use script"
+
+"use script";
+
+
+const currentDate = document.querySelector(".click__li");
+
+
+currentDate.addEventListener("click", () => {
+  currentDate.style.backgroundColor = "#0088F0";
+  currentDate.style.color = "#fff";
+  currentDate.style.borderRadius = "50%";
+  currentDate.style.width = "20px";
+  currentDate.style.height = "40px";
+});
+
+
