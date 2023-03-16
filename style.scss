@@ -22,7 +22,6 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 100px;
 
-
   .today {
     background-color: #ef2a82;
     border-radius: 100px;
@@ -41,256 +40,248 @@ body {
       color: #172755;
       font-size: 32px;
     }
-
+  }
+}
 /* -----------------------------REPOSITORY SECTION------------------------------------------------------------ */
-@media only screen and ( max-width:1200px ) {
-
-  body{
+@media only screen and (max-width: 1200px) {
+  body {
     max-width: 1200px;
   }
-  .widject{
+  .widject {
     width: 250px;
   }
 
-  .full{
- margin-right: 96px;
+  .full {
+    margin-right: 96px;
   }
 }
 
+@media only screen and (max-width: 1201px) {
+  body {
+    max-width: 1201px;
+  }
 
-
-@media only screen and ( max-width:1201px ) {
-body{
-  max-width: 1201px;
-}
-
-  .full{
+  .full {
     margin-right: 98px;
   }
 }
- 
-@media only screen and ( max-width:1000px ) {
-body{
-  max-width: 1000px;
-}
 
-  .widject{
+@media only screen and (max-width: 1000px) {
+  body {
+    max-width: 1000px;
+  }
+
+  .widject {
     margin-left: 50px;
     left: 0;
   }
-  
-  .widject h1{
+
+  .widject h1 {
     font-size: 35px;
   }
 
-  .widject p{
+  .widject p {
     width: 380px;
   }
 
-  .circlue{
+  .circlue {
     width: 470px;
     height: 300px;
   }
 
-  .percen{
+  .percen {
     position: absolute;
     right: 61px;
     top: 62px;
   }
 
-  .percen h4{
+  .percen h4 {
     font-size: 28px;
   }
-  
-  .percen2 h4{
-  font-size: 28px;
+
+  .percen2 h4 {
+    font-size: 28px;
   }
-  
-  .lines{
+
+  .lines {
     width: 470px;
     height: 300px;
     margin-left: 50px;
   }
 
-   .full{
+  .full {
     margin-right: 50px;
-   }
+  }
 
-  .full h1{
-   font-size: 35px;
+  .full h1 {
+    font-size: 35px;
   }
 }
 
-@media only screen and ( max-width:993px ) {
-
-  body{
+@media only screen and (max-width: 993px) {
+  body {
     max-width: 993px;
   }
-  
-  .widject{
+
+  .widject {
     margin-left: 50px;
     left: 0;
   }
-  
-  .widject h1{
+
+  .widject h1 {
     font-size: 24px;
   }
 
-  .widject p{
+  .widject p {
     width: 350px;
   }
 
-  .circlue{
+  .circlue {
     width: 430px;
     height: 300px;
   }
 
-  .percen{
+  .percen {
     position: absolute;
     right: 61px;
     top: 62px;
   }
 
-  .percen h4{
+  .percen h4 {
     font-size: 25px;
   }
-  
-  .percen2 h4{
-  font-size: 25px;
+
+  .percen2 h4 {
+    font-size: 25px;
   }
-  
-  .lines{
+
+  .lines {
     width: 430px;
     height: 300px;
     margin-left: 50px;
   }
 
-   .full{
+  .full {
     margin-right: 50px;
-   }
+  }
 
-  .full h1{
-   font-size: 25px;
+  .full h1 {
+    font-size: 25px;
   }
 }
 
-@media only screen and ( max-width:950px ) {
-
-  body{
+@media only screen and (max-width: 950px) {
+  body {
     max-width: 950px;
   }
 
-  .full{
+  .full {
     margin-right: 0;
   }
 
-  .full h1{
+  .full h1 {
     width: 360px;
   }
 
-  .full p{
+  .full p {
     width: 340px;
   }
-  
-  .circlue{
+
+  .circlue {
     width: 400px;
     height: 270px;
   }
 }
 
-@media only screen and ( max-width:900px ) {
+@media only screen and (max-width: 900px) {
+  body {
+    max-width: 900px;
+  }
 
-body{
-  max-width: 900px;
-}
-
-  .full{
+  .full {
     margin-right: 0;
   }
 
-  .full h1{
+  .full h1 {
     width: 360px;
   }
 
-
-    p {
-      color: #8794ba;
-      font-size: 15px;
-      margin-top: 30px;
-      font-weight: 300;
-    }
+  p {
+    color: #8794ba;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 300;
   }
+}
 
+.dashboard__calendar {
+  width: 600px;
+  height: 410px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 
-  .dashboard__calendar {
+  .wrapper {
+    background-color: white;
     width: 600px;
     height: 410px;
-    background-color: white;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+    border-radius: 10px;
+    padding: 57px 70px;
 
-    .wrapper {
-      background-color: white;
-      width: 600px;
-      height: 410px;
-      border-radius: 10px;
-      padding: 57px 70px;
+    .calendar {
+      padding: 20px;
 
-      .calendar {
-        padding: 20px;
-
-        .weeks {
-          li {
-            font-weight: 500;
-          }
+      .weeks {
+        li {
+          font-weight: 500;
         }
-        .days {
-          li {
-            // margin-top: 30px;
-            cursor: pointer;
-          }
+      }
+      .days {
+        li {
+          // margin-top: 30px;
+          cursor: pointer;
         }
+      }
 
-        ul {
-          display: flex;
-          list-style: none;
-          flex-wrap: wrap;
-          text-align: center;
+      ul {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        text-align: center;
 
-          li {
-            width: calc(100% / 7);
-            padding-bottom: 20px;
-            position: relative;
-            z-index: 1px;
-          }
+        li {
+          width: calc(100% / 7);
+          padding-bottom: 20px;
+          position: relative;
+          z-index: 1px;
         }
       }
     }
-
-@media only screen and ( max-width:767px ) {
-
-body{
-  max-width: 767px;
+  }
 }
+@media only screen and (max-width: 767px) {
+  body {
+    max-width: 767px;
+  }
 
-  .alertsSection{
+  .alertsSection {
     max-width: 350px;
     margin: 0 auto;
     align-items: center;
     gap: 80px;
   }
-  
-  .circlue{
-  align-items: center;
-  position: relative;
-  top: 50px;
-  right: 0;
+
+  .circlue {
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: 0;
   }
-  
-  .customersSection{
+
+  .customersSection {
     max-width: 350px;
     margin: 0 auto;
     display: flex;
@@ -299,33 +290,31 @@ body{
     margin-left: 0;
   }
 
-  .full{
-    margin-right:500px;
+  .full {
+    margin-right: 500px;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
 
-@media only screen and ( max-width:768px ) {
-
- body{
-  max-width: 768px;
- }
-
-  .alertsSection{
+  .alertsSection {
     max-width: 350px;
     margin: 0 auto;
     align-items: center;
     gap: 80px;
   }
-  
-  .circlue{
-  align-items: center;
-  position: relative;
-  top: 50px;
-  right: 160px;
+
+  .circlue {
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: 160px;
   }
-  
-  .customersSection{
+
+  .customersSection {
     max-width: 350px;
     margin: 0 auto;
     display: flex;
@@ -334,49 +323,45 @@ body{
     margin-left: 0;
   }
 
-  .full{
-    margin-right:500px;
+  .full {
+    margin-right: 500px;
   }
 }
 
-@media only screen and ( max-width:800px ) {
+@media only screen and (max-width: 800px) {
+  body {
+    max-width: 800px;
+  }
 
-body{
-  max-width: 800px;
-}
-  
-  .circlue{
+  .circlue {
     margin-top: 80px;
     margin-left: 460px;
   }
-  
-  .full{
+
+  .full {
     margin-left: 80px;
     // left: 280px;
   }
 }
 
-@media only screen and ( max-width:569px ) {
-  body{
+@media only screen and (max-width: 569px) {
+  body {
     max-width: 508px;
   }
-   
-   .widject{
+
+  .widject {
     margin-top: 40px;
     margin-left: 120px;
-   }
+  }
 
-
-  .circlue{
+  .circlue {
     width: 480px;
     height: 300px;
     margin-top: 260px;
     margin-left: 0;
     left: 0;
-
   }
 }
-
 
 @media only screen and (max-width: 1200px) {
   .dashboard {
@@ -417,89 +402,84 @@ body{
     border-radius: 10px;
     padding: 25px 10px;
 
-  .lines{
-    width: 480px;
-    height: 300px;
-    margin-top: 140px;
-  }
+    .lines {
+      width: 480px;
+      height: 300px;
+      margin-top: 140px;
+    }
 
+    .full {
+      position: absolute;
+      left: 0;
+      top: 660px;
+      margin-left: 120px;
+      margin-top: 0;
+    }
 
-  .full{
-    position: absolute;
-    left: 0;
-    top: 660px;
-    margin-left: 120px;
-    margin-top:0;
-  } 
-   
-  .lines{
-    margin-top: 220px;
-    left: 30px;
+    .lines {
+      margin-top: 220px;
+      left: 30px;
+    }
   }
 }
-
-@media only screen and ( max-width:391px ) {
-  .widject{
+@media only screen and (max-width: 391px) {
+  .widject {
     margin-top: 40px;
-   margin-left: 20px;
-   }
+    margin-left: 20px;
+  }
 
-   .widject h1{
+  .widject h1 {
     width: 450px;
     font-size: 26px;
     line-height: 40px;
-   }
-   
-   .widject p{
+  }
+
+  .widject p {
     width: 330px;
     margin-top: 0;
-    }
+  }
 
-  .circlue{
+  .circlue {
     width: 370px;
     height: 300px;
     margin-top: 290px;
     margin-left: 10px;
   }
 
- .percen h4{
-  right: 0;
-  font-size: 20px;
- }
+  .percen h4 {
+    right: 0;
+    font-size: 20px;
+  }
 
- .percen2 h4{
-  font-size: 20px;
- }
+  .percen2 h4 {
+    font-size: 20px;
+  }
 
-  .lines{
+  .lines {
     width: 370px;
     height: 300px;
     margin-top: 270px;
     margin-left: 20px;
   }
 
-
-  .full{
+  .full {
     margin-top: 60px;
     margin-left: 40px;
     left: 0;
-  } 
-
+  }
 }
 
+@media only screen and (max-width: 393px) {
+  body {
+    max-width: 393px;
+  }
 
-@media only screen and ( max-width:393px ) {
-
-body{
-  max-width: 393px;
-}
-
-  .widject{
+  .widject {
     margin-top: 40px;
     margin-left: 10px;
-   }
+  }
 
-  .circlue{
+  .circlue {
     width: 370px;
     height: 300px;
     margin-top: 290px;
@@ -507,64 +487,53 @@ body{
     margin-left: 0;
   }
 
-  .lines{
+  .lines {
     width: 370px;
     height: 300px;
     margin-top: 270px;
     margin-left: 10px;
     left: 0;
-
   }
 
-
-  .full{
+  .full {
     margin-top: 60px;
     margin-left: 10px;
     left: 0;
-  } 
-
+  }
 }
 
-
-
-
-@media only screen and ( max-width:414px ) {
-
-  body{
+@media only screen and (max-width: 414px) {
+  body {
     max-width: 414px;
   }
-  
-    .widject{
-      margin-top: 40px;
-      margin-left: 10px;
-     }
-  
-    .circlue{
-      width: 370px;
-      height: 300px;
-      margin-top: 290px;
-      position: absolute;
-      left: 0;
-      margin-left: 0;
-    }
-  
-    .lines{
-      width: 370px;
-      height: 300px;
-      margin-top: 850px;
-      margin-left: 0;
-      left: 0;
-    }
-  
-  
-    .full{
-      margin-top: 60px;
-      margin-left: 10px;
-      left: 0;
-    } 
-  
-  }
-  
-  
-/*# sourceMappingURL=index.css.map */
 
+  .widject {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  .circlue {
+    width: 370px;
+    height: 300px;
+    margin-top: 290px;
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+  }
+
+  .lines {
+    width: 370px;
+    height: 300px;
+    margin-top: 850px;
+    margin-left: 0;
+    left: 0;
+  }
+
+  .full {
+    margin-top: 60px;
+    margin-left: 10px;
+    left: 0;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
