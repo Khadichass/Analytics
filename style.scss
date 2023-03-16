@@ -232,6 +232,8 @@
       margin: 0 auto;
       padding-top: 20px;
     }
+  }
+}
 body {
   max-width: 1600px;
   margin: 0 auto;
@@ -279,7 +281,6 @@ body {
     width: 250px;
   }
 
-<<<<<<< HEAD
   .full {
     margin-right: 96px;
   }
@@ -291,7 +292,6 @@ body {
   }
 
   .full {
-=======
     &__button {
       img {
         background-color: white;
@@ -340,13 +340,14 @@ body {
       line-height: 27.8px;
       margin-top: 30px;
     }
-@media only screen and ( max-width:1201px ) {
-body{
-  max-width: 1201px;
+  }
 }
+@media only screen and (max-width: 1201px) {
+  body {
+    max-width: 1201px;
+  }
 
-  .full{
->>>>>>> 3f3b91f2b81cbf75c179e42b0a037fee91822e3b
+  .full {
     margin-right: 98px;
   }
 }
@@ -465,10 +466,8 @@ body{
 }
 
 // -----carddiagram---------//
-@media only screen and ( max-width:993px ) {
-
-  body{
->>>>>>> 3f3b91f2b81cbf75c179e42b0a037fee91822e3b
+@media only screen and (max-width: 993px) {
+  body {
     max-width: 993px;
   }
 
@@ -518,20 +517,23 @@ body{
     font-size: 25px;
   }
 
-#close {
-  color: white;
+  #close {
+    color: white;
+  }
 }
 // -----Responsive 1400px---------
 
-<<<<<<< HEAD
-@media only screen and (max-width: 950px) {
-  body {
+// @media only screen and (max-width: 950px) {
+//   body {
+
 @media only screen and (max-width: 1400px) {
   .carddiagram {
     display: none;
-@media only screen and ( max-width:950px ) {
+  }
+}
 
-  body{
+@media only screen and (max-width: 950px) {
+  body {
     max-width: 950px;
   }
 
@@ -554,12 +556,11 @@ body{
 }
 // -----Responsive 1400px---------
 
-<<<<<<< HEAD
 @media only screen and (max-width: 900px) {
   body {
     max-width: 900px;
   }
-=======
+}
 // -----Responsive 1200px---------
 @media only screen and (max-width: 1200px) {
   .head {
@@ -689,9 +690,9 @@ body{
       width: 150px;
       margin-right: 0;
     }
-@media only screen and ( max-width:900px ) {
->>>>>>> 3f3b91f2b81cbf75c179e42b0a037fee91822e3b
-
+  }
+}
+@media only screen and (max-width: 900px) {
   .full {
     margin-right: 0;
   }
@@ -834,15 +835,12 @@ body{
 
   .full {
     margin-left: 80px;
-    // left: 280px;
   }
 }
 // -----Responsive 992px---------//
 
-<<<<<<< HEAD
-@media only screen and (max-width: 569px) {
-  body {
-=======
+// @media only screen and (max-width: 569px) {
+//   body {
 // -----Responsive 768px---------
 @media only screen and (max-width: 768px) {
   .header {
@@ -860,9 +858,10 @@ body{
       width: 90px;
       margin-right: 0;
     }
-@media only screen and ( max-width:569px ) {
-  body{
->>>>>>> 3f3b91f2b81cbf75c179e42b0a037fee91822e3b
+  }
+}
+@media only screen and (max-width: 569px) {
+  body {
     max-width: 508px;
   }
 
@@ -939,7 +938,7 @@ body{
     }
   }
 }
-<<<<<<< HEAD
+
 @media only screen and (max-width: 391px) {
   .widject {
     margin-top: 40px;
@@ -956,7 +955,7 @@ body{
     width: 330px;
     margin-top: 0;
   }
-=======
+}
 // -----Responsive 768px---------//
 
 // -----Responsive 586px---------
@@ -1036,38 +1035,37 @@ body{
         width: 80px;
       }
     }
->>>>>>> 3f3b91f2b81cbf75c179e42b0a037fee91822e3b
 
-  .circlue {
-    width: 370px;
-    height: 300px;
-    margin-top: 290px;
-    margin-left: 10px;
-  }
+    .circlue {
+      width: 370px;
+      height: 300px;
+      margin-top: 290px;
+      margin-left: 10px;
+    }
 
-  .percen h4 {
-    right: 0;
-    font-size: 20px;
-  }
+    .percen h4 {
+      right: 0;
+      font-size: 20px;
+    }
 
-  .percen2 h4 {
-    font-size: 20px;
-  }
+    .percen2 h4 {
+      font-size: 20px;
+    }
 
-  .lines {
-    width: 370px;
-    height: 300px;
-    margin-top: 270px;
-    margin-left: 20px;
-  }
+    .lines {
+      width: 370px;
+      height: 300px;
+      margin-top: 270px;
+      margin-left: 20px;
+    }
 
-  .full {
-    margin-top: 60px;
-    margin-left: 40px;
-    left: 0;
+    .full {
+      margin-top: 60px;
+      margin-left: 40px;
+      left: 0;
+    }
   }
 }
-
 @media only screen and (max-width: 393px) {
   body {
     max-width: 393px;
