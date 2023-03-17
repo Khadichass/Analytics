@@ -232,53 +232,6 @@
       margin: 0 auto;
       padding-top: 20px;
     }
-  }
-}
-body {
-  max-width: 1600px;
-  margin: 0 auto;
-  background: #e5e5e5;
-  font-family: popins;
-}
-
-@font-face {
-  font-family: popins;
-  src: url(Fonts/Poppins-Medium.ttf);
-}
-
-.dashboard {
-  padding: 120px 150px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-
-  .today {
-    background-color: #ef2a82;
-    border-radius: 100px;
-    color: white;
-    width: 10px;
-    height: 30px;
-    // padding: 8px;
-  }
-
-  .dashboard__text {
-    width: 408px;
-    height: 410px;
-    padding: 89px 0;
-
-    h1 {
-      color: #172755;
-      font-size: 32px;
-    }
-  }
-}
-/* -----------------------------REPOSITORY SECTION------------------------------------------------------------ */
-@media only screen and (max-width: 1200px) {
-  body {
-    max-width: 1200px;
-  }
-  .widject {
-    width: 250px;
 
     &__button {
       img {
@@ -328,173 +281,76 @@ body {
       line-height: 27.8px;
       margin-top: 30px;
     }
-  }
-}
-@media only screen and (max-width: 1201px) {
-  body {
-    max-width: 1201px;
-  }
 
-  .full {
-    margin-right: 98px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  body {
-    max-width: 1000px;
-  }
-
-  .widject {
-    margin-left: 50px;
-    left: 0;
-  }
-
-  .widject h1 {
-    font-size: 35px;
-  }
-
-  .widject p {
-    width: 380px;
-  }
-
-  h3 {
-    color: #ef2a82;
-    font: {
-      size: 23.72px;
-      weight: 400;
-      family: "Robotor", sans-serif;
+    h3 {
+      color: #ef2a82;
+      font: {
+        size: 23.72px;
+        weight: 400;
+        family: "Robotor", sans-serif;
+      }
+      line-height: 27.8px;
+      margin-top: 20px;
     }
-    line-height: 27.8px;
-    margin-top: 20px;
-  }
 
-  p {
-    font: {
-      size: 10.83px;
-      weight: 400;
-      family: "Robotor", sans-serif;
+    p {
+      font: {
+        size: 10.83px;
+        weight: 400;
+        family: "Robotor", sans-serif;
+      }
+      line-height: 16.25px;
+      color: #8794ba;
+      margin-top: 2px;
     }
-    line-height: 16.25px;
-    color: #8794ba;
-    margin-top: 2px;
-  }
 
-  &--circel {
-    position: relative;
-  }
+    &--circel {
+      position: relative;
+    }
 
-  .numb {
-    position: absolute;
-    top: 104px;
-    left: 132px;
-  }
-  .bluecircle {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    border: solid 10px transparent;
-    border-right-color: #0088f0;
-    border-left-color: #0088f0;
-    border-bottom-color: #0088f0;
-    transform: rotate(320deg);
-    margin-left: 20px;
-  }
+    .numb {
+      position: absolute;
+      top: 104px;
+      left: 132px;
+    }
+    .bluecircle {
+      height: 160px;
+      width: 160px;
+      border-radius: 50%;
+      border: solid 10px transparent;
+      border-right-color: #0088f0;
+      border-left-color: #0088f0;
+      border-bottom-color: #0088f0;
+      transform: rotate(320deg);
+      margin-left: 20px;
+    }
 
-  .pinkcircle {
-    height: 111px;
-    width: 111px;
-    border-radius: 50%;
-    border: solid 10px transparent;
-    border-right-color: #ef2a82;
-    border-left-color: #ef2a82;
-    border-bottom-color: #ef2a82;
-    transform: rotate(320deg);
-    position: absolute;
-    top: 64px;
-    left: 92px;
+    .pinkcircle {
+      height: 111px;
+      width: 111px;
+      border-radius: 50%;
+      border: solid 10px transparent;
+      border-right-color: #ef2a82;
+      border-left-color: #ef2a82;
+      border-bottom-color: #ef2a82;
+      transform: rotate(320deg);
+      position: absolute;
+      top: 64px;
+      left: 92px;
+    }
   }
 }
 
 // -----carddiagram---------//
-@media only screen and (max-width: 993px) {
-  body {
-    max-width: 993px;
-  }
 
-  .widject {
-    margin-left: 50px;
-    left: 0;
-  }
-
-  .widject h1 {
-    font-size: 24px;
-  }
-
-  .widject p {
-    width: 350px;
-  }
-
-  .circlue {
-    width: 430px;
-    height: 300px;
-  }
-
-  .percen {
-    position: absolute;
-    right: 61px;
-    top: 62px;
-  }
-
-  .percen h4 {
-    font-size: 25px;
-  }
-
-  .percen2 h4 {
-    font-size: 25px;
-  }
-
-  .lines {
-    width: 430px;
-    height: 300px;
-    margin-left: 50px;
-  }
-
-  .full {
-    margin-right: 50px;
-  }
-
-  #close {
-    color: white;
-  }
+#close {
+  color: white;
 }
 // -----Responsive 1400px---------
 
 @media only screen and (max-width: 1400px) {
   .carddiagram {
     display: none;
-  }
-}
-@media only screen and (max-width: 950px) {
-  body {
-    max-width: 950px;
-  }
-
-  .full {
-    margin-right: 0;
-  }
-
-  .full h1 {
-    width: 360px;
-  }
-
-  .full p {
-    width: 340px;
-  }
-
-  .circlue {
-    width: 400px;
-    height: 270px;
   }
 }
 // -----Responsive 1400px---------
@@ -630,156 +486,6 @@ body {
     }
   }
 }
-@media only screen and (max-width: 900px) {
-  body {
-    max-width: 900px;
-  }
-
-  .full {
-    margin-right: 0;
-  }
-
-  .full h1 {
-    width: 360px;
-  }
-
-  p {
-    color: #8794ba;
-    font-size: 15px;
-    margin-top: 30px;
-    font-weight: 300;
-  }
-}
-
-.dashboard__calendar {
-  width: 600px;
-  height: 410px;
-  background-color: white;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-
-  .wrapper {
-    background-color: white;
-    width: 600px;
-    height: 410px;
-    border-radius: 10px;
-    padding: 57px 70px;
-
-    .calendar {
-      padding: 20px;
-
-      .weeks {
-        li {
-          font-weight: 500;
-        }
-      }
-      .days {
-        li {
-          // margin-top: 30px;
-          cursor: pointer;
-        }
-      }
-
-      ul {
-        display: flex;
-        list-style: none;
-        flex-wrap: wrap;
-        text-align: center;
-
-        li {
-          width: calc(100% / 7);
-          padding-bottom: 20px;
-          position: relative;
-          z-index: 1px;
-        }
-      }
-    }
-  }
-}
-@media only screen and (max-width: 767px) {
-  body {
-    max-width: 767px;
-  }
-
-  .alertsSection {
-    max-width: 350px;
-    margin: 0 auto;
-    align-items: center;
-    gap: 80px;
-  }
-
-  .circlue {
-    align-items: center;
-    position: relative;
-    top: 50px;
-    right: 0;
-  }
-
-  .customersSection {
-    max-width: 350px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    margin-top: 110px;
-    margin-left: 0;
-  }
-
-  .full {
-    margin-right: 500px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    max-width: 768px;
-  }
-
-  .alertsSection {
-    max-width: 350px;
-    margin: 0 auto;
-    align-items: center;
-    gap: 80px;
-  }
-
-  .circlue {
-    align-items: center;
-    position: relative;
-    top: 50px;
-    right: 160px;
-  }
-
-  .customersSection {
-    max-width: 350px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    margin-top: 110px;
-    margin-left: 0;
-  }
-
-  .full {
-    margin-right: 500px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  body {
-    max-width: 800px;
-  }
-
-  .circlue {
-    margin-top: 80px;
-    margin-left: 460px;
-  }
-
-  .full {
-    margin-left: 80px;
-    // left: 280px;
-  }
-}
 // -----Responsive 992px---------//
 
 // -----Responsive 768px---------
@@ -798,84 +504,6 @@ body {
       width: 100%;
       width: 90px;
       margin-right: 0;
-    }
-  }
-}
-@media only screen and (max-width: 569px) {
-  body {
-    max-width: 508px;
-  }
-
-  .widject {
-    margin-top: 40px;
-    margin-left: 120px;
-  }
-
-  .circlue {
-    width: 480px;
-    height: 300px;
-    margin-top: 260px;
-    margin-left: 0;
-    left: 0;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .dashboard {
-    padding: 120px 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-  }
-
-  .dashboard .dashboard__calendar {
-    width: 500px;
-    height: 390px;
-  }
-}
-
-@media only screen and (max-width: 586px) {
-  .dashboard {
-    padding: 60px 15px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .dashboard .dashboard__text {
-    width: 408px;
-    height: 350px;
-    padding: 89px 0;
-  }
-
-  .dashboard .dashboard__calendar {
-    width: 450px;
-    height: 350px;
-  }
-  .dashboard .dashboard__calendar .wrapper {
-    background-color: white;
-    width: 400px;
-    height: 350px;
-    border-radius: 10px;
-    padding: 25px 10px;
-
-    .lines {
-      width: 480px;
-      height: 300px;
-      margin-top: 140px;
-    }
-
-    .full {
-      position: absolute;
-      left: 0;
-      top: 660px;
-      margin-left: 120px;
-      margin-top: 0;
-    }
-
-    .lines {
-      margin-top: 220px;
-      left: 30px;
     }
   }
 }
@@ -958,104 +586,8 @@ body {
         width: 80px;
       }
     }
-
-    .circlue {
-      width: 370px;
-      height: 300px;
-      margin-top: 290px;
-      margin-left: 10px;
-    }
-
-    .percen h4 {
-      right: 0;
-      font-size: 20px;
-    }
-
-    .percen2 h4 {
-      font-size: 20px;
-    }
-
-    .lines {
-      width: 370px;
-      height: 300px;
-      margin-top: 270px;
-      margin-left: 20px;
-    }
-
-    .full {
-      margin-top: 60px;
-      margin-left: 40px;
-      left: 0;
-    }
-  }
-}
-
-@media only screen and (max-width: 393px) {
-  body {
-    max-width: 393px;
-  }
-
-  .widject {
-    margin-top: 40px;
-    margin-left: 10px;
-  }
-
-  .circlue {
-    width: 370px;
-    height: 300px;
-    margin-top: 290px;
-    left: 0;
-    margin-left: 0;
-  }
-
-  .lines {
-    width: 370px;
-    height: 300px;
-    margin-top: 270px;
-    margin-left: 10px;
-    left: 0;
-  }
-
-  .full {
-    margin-top: 60px;
-    margin-left: 10px;
-    left: 0;
   }
 }
 // -----Responsive 586px---------//
-
-@media only screen and (max-width: 414px) {
-  body {
-    max-width: 414px;
-  }
-
-  .widject {
-    margin-top: 40px;
-    margin-left: 10px;
-  }
-
-  .circlue {
-    width: 370px;
-    height: 300px;
-    margin-top: 290px;
-    position: absolute;
-    left: 0;
-    margin-left: 0;
-  }
-
-  .lines {
-    width: 370px;
-    height: 300px;
-    margin-top: 850px;
-    margin-left: 0;
-    left: 0;
-  }
-
-  .full {
-    margin-top: 60px;
-    margin-left: 10px;
-    left: 0;
-  }
-}
 
 /*# sourceMappingURL=index.css.map */

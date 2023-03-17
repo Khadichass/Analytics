@@ -1,3 +1,4 @@
+"use script";
 
 const openBtn = document.getElementById("menu");
 // const openBtn = document.getElementById("menu");
@@ -16,14 +17,7 @@ let closeButton = function () {
 
 closeBtn.addEventListener("click", closeButton);
 
-// const currentDate = document.getElementsByTagName("li");
-"use script"
-
-"use script";
-
-
 const currentDate = document.querySelector(".click__li");
-
 
 currentDate.addEventListener("click", () => {
   currentDate.style.backgroundColor = "#0088F0";
@@ -32,5 +26,3 @@ currentDate.addEventListener("click", () => {
   currentDate.style.width = "20px";
   currentDate.style.height = "40px";
 });
-
-
