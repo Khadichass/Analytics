@@ -805,6 +805,672 @@
   }
 }
 * {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6f5f6;
+}
+
+/* ----------------------------------------------------------------------------- */
+.widject {
+  margin-top: 120px;
+  position: absolute;
+  left: 140px;
+  font-family: Regular;
+}
+
+.widject h1 {
+  width: 390px;
+  height: 100px;
+  font-size: 38px;
+  line-height: 46px;
+  color: #172755;
+}
+
+.widject p {
+  font-family: Regular;
+  width: 380px;
+  height: 108px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #8794ba;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+@font-face {
+  font-family: Regular;
+  src: url(./images/Poppins/Poppins-Regular.ttf);
+}
+.alertsSection {
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-top: 130px;
+  display: flex;
+  font-family: Regular;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circlue {
+  width: 470px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 0 0 390px;
+  position: relative;
+  box-shadow: 11px 18px 50px 15px rgba(25, 42, 89, 0.2);
+}
+
+.polypics {
+  width: 200px;
+  height: 140px;
+  position: absolute;
+  left: 40px;
+  top: 20px;
+}
+
+.pict-1 {
+  position: relative;
+  top: 90px;
+  left: 76px;
+  width: 48px;
+  height: 55px;
+  filter: blur(5.9);
+}
+
+.pict-2 {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+  width: 105px;
+  height: 115px;
+}
+
+.pict-3 {
+  position: absolute;
+  top: 70px;
+  width: 130px;
+  height: 135px;
+}
+
+.pict-4 {
+  position: absolute;
+  top: 55px;
+  width: 110px;
+  height: 120px;
+}
+
+.pict-5 {
+  width: 180px;
+  height: 190px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+.extra p {
+  color: #8794ba;
+  font-size: 9px;
+  font-family: Regular;
+}
+
+.parg-1 {
+  position: absolute;
+  left: 140px;
+  top: 35px;
+}
+
+.parg-2 {
+  position: absolute;
+  top: 92px;
+  left: 30px;
+}
+
+.parg-3 {
+  position: absolute;
+  top: 186px;
+  left: 30px;
+}
+
+.parg-4 {
+  position: absolute;
+  top: 246px;
+  left: 137px;
+}
+
+.parg-5 {
+  position: absolute;
+  top: 92px;
+  left: 244px;
+}
+
+.parg-6 {
+  position: absolute;
+  top: 186px;
+  left: 244px;
+}
+
+/* ------------------------------------------------------------------------- */
+.percen {
+  position: absolute;
+  right: 51px;
+  top: 62px;
+  font-family: Regular;
+}
+
+.percen h4 {
+  color: #ef2a82;
+  font-size: 40px;
+}
+
+.percen p {
+  color: #8794ba;
+}
+
+.percen2 {
+  position: absolute;
+  right: 51px;
+  top: 172px;
+  font-family: Regular;
+}
+
+.percen2 h4 {
+  color: #0088f0;
+  font-size: 40px;
+}
+
+.percen2 p {
+  color: #8794ba;
+}
+
+/* ----------------------------------------------------------------------------------- */
+.customersSection {
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 209px;
+  margin-bottom: 209px;
+}
+
+.lines {
+  width: 470px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 11px 18px 50px 15px rgba(25, 42, 89, 0.2);
+}
+
+.inside {
+  width: 280px;
+  display: flex;
+  gap: 50px;
+  height: 200px;
+  margin-top: 60px;
+  margin-left: 104px;
+}
+
+.vertical {
+  position: absolute;
+  top: 0;
+}
+
+.pic1 {
+  position: absolute;
+  top: 60px;
+  left: 103px;
+  width: 242px;
+  height: 10px;
+}
+
+.pic2 {
+  position: absolute;
+  top: 71px;
+  left: 103px;
+  width: 148px;
+}
+
+.pic3 {
+  position: absolute;
+  top: 106px;
+  left: 103px;
+  width: 155px;
+}
+
+.pic4 {
+  position: absolute;
+  top: 116px;
+  left: 103px;
+  width: 175px;
+}
+
+.pic5 {
+  position: absolute;
+  top: 150px;
+  left: 103px;
+  width: 90px;
+}
+
+.pic6 {
+  position: absolute;
+  top: 158px;
+  left: 103px;
+  width: 114px;
+}
+
+.pic7 {
+  position: absolute;
+  top: 190px;
+  left: 103px;
+  width: 120px;
+}
+
+.pic8 {
+  position: absolute;
+  top: 197px;
+  left: 103px;
+  width: 160px;
+}
+
+.pic9 {
+  position: absolute;
+  top: 235px;
+  left: 103px;
+  width: 190px;
+}
+
+.pic10 {
+  position: absolute;
+  top: 250px;
+  left: 103px;
+}
+
+/* ------------------------------------------------------------------- */
+.infor {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  line-height: 45px;
+  font-family: Regular;
+}
+
+.infor p {
+  color: #8794ba;
+  font-size: 10px;
+}
+
+.numb1 {
+  margin-top: 45px;
+}
+
+.full {
+  /* position: absolute;
+  /* right: 190px; 
+  right: 0;
+  top: 500px;
+  margin-right: 210px; */
+  font-family: Regular;
+}
+
+.full h1 {
+  width: 400px;
+  height: 100px;
+  font-size: 38px;
+  line-height: 46px;
+  color: #172755;
+}
+
+.full p {
+  width: 380px;
+  height: 108px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #8794ba;
+}
+
+/* -----------------------------REPOSITORY SECTION------------------------------------------------------------ */
+@media only screen and (max-width: 1200px) {
+  body {
+    max-width: 1200px;
+  }
+  .widject {
+    width: 250px;
+  }
+  .full {
+    margin-right: 96px;
+  }
+}
+@media only screen and (max-width: 1201px) {
+  body {
+    max-width: 1201px;
+  }
+  .full {
+    margin-right: 98px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    max-width: 1000px;
+  }
+  .widject {
+    margin-left: 50px;
+    left: 0;
+  }
+  .widject h1 {
+    font-size: 35px;
+  }
+  .widject p {
+    width: 380px;
+  }
+  .circlue {
+    width: 470px;
+    height: 300px;
+  }
+  .percen {
+    position: absolute;
+    right: 61px;
+    top: 62px;
+  }
+  .percen h4 {
+    font-size: 28px;
+  }
+  .percen2 h4 {
+    font-size: 28px;
+  }
+  .lines {
+    width: 470px;
+    height: 300px;
+    margin-left: 50px;
+  }
+  .full {
+    margin-right: 50px;
+  }
+  .full h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  body {
+    max-width: 993px;
+  }
+  .widject {
+    margin-left: 50px;
+    left: 0;
+  }
+  .widject h1 {
+    font-size: 24px;
+  }
+  .widject p {
+    width: 350px;
+  }
+  .circlue {
+    width: 430px;
+    height: 300px;
+  }
+  .percen {
+    position: absolute;
+    right: 61px;
+    top: 62px;
+  }
+  .percen h4 {
+    font-size: 25px;
+  }
+  .percen2 h4 {
+    font-size: 25px;
+  }
+  .lines {
+    width: 430px;
+    height: 300px;
+    margin-left: 50px;
+  }
+  .full {
+    margin-right: 50px;
+  }
+  .full h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  body {
+    max-width: 950px;
+  }
+  .full {
+    margin-right: 0;
+  }
+  .full h1 {
+    width: 360px;
+  }
+  .full p {
+    width: 340px;
+  }
+  .circlue {
+    width: 400px;
+    height: 270px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    max-width: 900px;
+  }
+  .full {
+    margin-right: 0;
+  }
+  .full h1 {
+    width: 360px;
+  }
+  .full p {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    max-width: 767px;
+  }
+  .alertsSection {
+    max-width: 350px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 80px;
+  }
+  .circlue {
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: 0;
+  }
+  .customersSection {
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 0;
+  }
+  .full {
+    margin-right: 500px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+  .alertsSection {
+    max-width: 350px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 80px;
+  }
+  .circlue {
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: 160px;
+  }
+  .customersSection {
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 0;
+  }
+  .full {
+    margin-right: 500px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body {
+    max-width: 800px;
+  }
+  .circlue {
+    margin-top: 80px;
+    margin-left: 460px;
+  }
+  .full {
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 569px) {
+  body {
+    max-width: 508px;
+  }
+  .widject {
+    margin-top: 40px;
+    margin-left: 120px;
+  }
+  .circlue {
+    width: 480px;
+    height: 300px;
+    margin-top: 260px;
+    margin-left: 0;
+    left: 0;
+  }
+  .lines {
+    width: 480px;
+    height: 300px;
+    margin-top: 140px;
+  }
+  .full {
+    position: absolute;
+    left: 0;
+    top: 660px;
+    margin-left: 120px;
+    margin-top: 0;
+  }
+  .lines {
+    margin-top: 220px;
+    left: 30px;
+    bottom: 111px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .widject {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .widject h1 {
+    width: 450px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .widject p {
+    width: 330px;
+    margin-top: 0;
+  }
+  .circlue {
+    width: 370px;
+    height: 300px;
+    margin-top: 290px;
+    margin-left: 10px;
+  }
+  .percen h4 {
+    right: 0;
+    font-size: 20px;
+  }
+  .percen2 h4 {
+    font-size: 20px;
+  }
+  .lines {
+    width: 370px;
+    height: 300px;
+    margin-top: 270px;
+    margin-left: 20px;
+  }
+  .full {
+    margin-top: 60px;
+    margin-left: 40px;
+    left: 0;
+  }
+}
+@media only screen and (max-width: 393px) {
+  body {
+    max-width: 393px;
+  }
+  .widject {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .circlue {
+    width: 370px;
+    height: 300px;
+    margin-top: 290px;
+    left: 0;
+    margin-left: 0;
+  }
+  .lines {
+    width: 370px;
+    height: 300px;
+    margin-top: 270px;
+    margin-left: 10px;
+    left: 0;
+  }
+  .full {
+    margin-top: 60px;
+    margin-left: 10px;
+    left: 0;
+  }
+}
+@media only screen and (max-width: 414px) {
+  body {
+    max-width: 414px;
+  }
+  .widject {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .circlue {
+    width: 370px;
+    height: 300px;
+    margin-top: 290px;
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+  }
+  .lines {
+    width: 370px;
+    height: 300px;
+    margin-top: 850px;
+    margin-left: 0;
+    left: 0;
+  }
+  .full {
+    margin-top: 60px;
+    margin-left: 10px;
+    left: 0;
+  }
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
