@@ -842,7 +842,8 @@ body {
 }
 .dashboard .dashboard__text h1 {
   color: #172755;
-  font-size: 32px;
+  font-size: 34px;
+  font-family: sans-serif;
 }
 .dashboard .dashboard__text p {
   color: #8794ba;
